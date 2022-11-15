@@ -46,7 +46,6 @@ Your assignment is to:
 Use your `music_library` project from the previous section.
 
 [Example Solution](https://www.youtube.com/watch?v=POF2BNCBAgI&t=2931s)
-**/
 
 ## Challenge
 
