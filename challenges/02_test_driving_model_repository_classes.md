@@ -103,7 +103,7 @@ You should get an output that looks roughly like this:
 ```
 
 [After you're done, submit your recording
-here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=db_as01).
+here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as01).
 
 
 [Next Challenge](03_designing_schema_one_table.md)

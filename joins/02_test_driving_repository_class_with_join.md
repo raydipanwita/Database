@@ -46,7 +46,7 @@ For example, we could fetch a single artist, and get its related albums this
 way:
 
 ```python
-repository = ArtistRepository()
+repository = ArtistRepository(connection)
 
 # Perfoms a SELECT with a JOIN and returns an Artist object.
 # This object also has an attribute .albums, which is an array
@@ -86,6 +86,9 @@ Then we'll test-drive, encoding the expected behaviour as a test.
 
 ```python
 # file: tests/test_artist_repository.py
+from lib.artist_repository import ArtistRepository
+from lib.artist import Artist
+from lib.album import Album
 
 def test_find_with_albums(db_connection):
     db_connection.seed("seeds/music_library.sql")
@@ -104,6 +107,8 @@ And then the method implementation:
 
 ```python
 # file: lib/artist_repository.py
+from lib.artist import Artist
+from lib.album import Album
 
 class ArtistRepository():
     # ...

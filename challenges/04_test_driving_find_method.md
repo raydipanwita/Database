@@ -58,7 +58,7 @@ Your assignment is to test-drive a recipe directory program. You should:
 1. Set up a new project called `recipe_directory` from the
    [starter](https://github.com/makersacademy/databases-in-python-project-starter).
 2. Use the [Single Table Design
-   Recipe](../single_table_design_recipe_template.md) to design and create a
+   Recipe](../resources/single_table_design_recipe_template.md) to design and create a
    table for the following user stories:
 
    ```
@@ -83,7 +83,7 @@ Your assignment is to test-drive a recipe directory program. You should:
    out the list of recipes to the terminal.
 
 [After you're done, submit your recording
-here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=db_as02).
+here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as02).
 
 
 [Next Challenge](05_designing_schema_two_tables.md)

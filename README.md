@@ -54,7 +54,7 @@ Go through these exercises and learn how to setup and gradually build a program
 which communicates with a database.
 
 Some of these challenges include [Process Feedback
-Challenges](https://github.com/makersacademy/golden-square/blob/main/pills/process_feedback_challenges.ed.md),
+Challenges](https://github.com/makersacademy/golden-square/blob/main/pills/process_feedback_challenges.md),
 in which you record yourself performing the task and share it with your coach
 for feedback. These are tagged with a 📡.
 

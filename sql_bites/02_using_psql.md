@@ -105,7 +105,7 @@ You've created a database, but it is empty for now, without any table.
 
 In the following sections, you will work using seed data provided by us, with
 tables that have already been created. All the needed SQL is in the file
-[`music_database.sql`](../resources/seeds/music_database.sql). You can clone
+[`music_database.sql`](resources/music_library.sql). You can clone
 this module's repository to get the file on your machine, or download it
 directly.
 
@@ -166,7 +166,7 @@ Then, once in the `psql` REPL, run the following SQL query:
 SELECT * FROM artists;
 ```
 
-It everything worked, you should get the following result from the database.
+If everything worked, you should get the following result from the database.
 This result is called a **result set** — you will learn more about this in the
 next bite. Well done on running your first SQL query!
 
@@ -176,7 +176,7 @@ next bite. Well done on running your first SQL query!
   1 | Pixies       | Rock
   2 | ABBA         | Pop
   3 | Taylor Swift | Pop
-  4 | Lorde        | Pop
+  4 | Nina Simone  | Jazz
 (4 rows)
 ```
 

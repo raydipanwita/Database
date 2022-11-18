@@ -94,7 +94,7 @@ SELECT id, title, release_year
 -- to combine conditions.
 
 -- From albums,
--- filter where release_year is greater than 1990 AND artist_is is '1',
+-- filter where release_year is greater than 1989 AND artist_id is '1',
 -- and select only values for the columns id, title, release_year and artist_id.
 SELECT id, title, release_year, artist_id
   FROM albums
@@ -177,6 +177,7 @@ You should get the following result set:
  Surfer Rosa
  Bossanova
 ```
+
 
 [Next Challenge](04_updating_and_deleting_date.md)
 
