@@ -49,10 +49,6 @@ Use your `music_library` project from the previous section.
 
 ## Challenge
 
-This is a process feedback challenge. That means you should record yourself
-doing it and submit that recording to your coach for feedback. [How do I do
-this?](https://github.com/makersacademy/golden-square/blob/main/pills/process_feedback_challenges.md)
-
 Your assignment is to test-drive a recipe directory program. You should:
 
 1. Set up a new project called `recipe_directory` from the
@@ -82,18 +78,15 @@ Your assignment is to test-drive a recipe directory program. You should:
 6. Write a small program in `app.py` using the class `RecipeRepository` to print
    out the list of recipes to the terminal.
 
-[After you're done, submit your recording
-here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as02).
 
-
-[Next Challenge](05_designing_schema_two_tables.md)
+[Next Challenge](06_designing_schema_two_tables.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
 ---
 
 **How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F04_test_driving_find_method.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F04_test_driving_find_method.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F04_test_driving_find_method.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F04_test_driving_find_method.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F04_test_driving_find_method.md&prefill_Sentiment=😀)  
+[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F05_test_driving_find_method.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F05_test_driving_find_method.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F05_test_driving_find_method.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F05_test_driving_find_method.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy%2Fdatabases-in-python&prefill_File=challenges%2F05_test_driving_find_method.md&prefill_Sentiment=😀)  
 Click an emoji to tell us.
 
 <!-- END GENERATED SECTION DO NOT EDIT -->

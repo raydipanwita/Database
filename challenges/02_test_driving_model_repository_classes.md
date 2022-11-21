@@ -106,7 +106,7 @@ You should get an output that looks roughly like this:
 here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as01).
 
 
-[Next Challenge](03_designing_schema_one_table.md)
+[Next Challenge](03_creating_sequence_diagrams.md)
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
