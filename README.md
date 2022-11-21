@@ -72,7 +72,7 @@ for feedback. These are tagged with a 📡.
 6. [Designing a schema with two related
    tables](./challenges/06_designing_schema_two_tables.md)
 7. [Designing a Repository class "create" and "delete
-   methods](./challenges/07_test_driving_write_operations.md)
+   methods](./challenges/07_test_driving_write_operations.md) 📡
 8. [Wrapping in an Application
    class](./challenges/08_wrapping_in_application_class.md)
 

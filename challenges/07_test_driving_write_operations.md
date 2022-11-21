@@ -65,12 +65,19 @@ Your assignment is to test-drive a social network program. You should:
 
 ## Challenge
 
+This is a process feedback challenge. That means you should record yourself doing it and
+submit that recording to your coach for feedback. [How do I do
+this?](https://github.com/makersacademy/golden-square/blob/main/pills/process_feedback_challenges.md)
+
 Your assignment is to:
 
 1. Test-drive a `create` method for your `AlbumRepository` class.
 2. Test-drive a `delete` method for your `AlbumRepository` class.
 
 Use your `music_library` project from the previous section.
+
+[After you're done, submit your recording
+here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as03).
 
 
 [Next Challenge](08_wrapping_in_application_class.md)

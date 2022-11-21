@@ -89,11 +89,11 @@ sequenceDiagram
     app->>db_conn: Opens connection to database calling method `connect` on DatabaseConnection
     db_conn->>db_conn: Opens database connection using PG and stores the connection
     app->>ar: Calls method `all` on AlbumRepository
-    ar->>db_conn: Sends SQL query by calling method `exec_params` on DatabaseConnection
+    ar->>db_conn: Sends SQL query by calling method `execute` on DatabaseConnection
     db_conn->>db: Sends query to database via the open database connection
-    db->>db_conn: Returns an array of hashes, one for each row of the albums table
+    db->>db_conn: Returns an array of dictionaries, one for each row of the albums table
 
-    db_conn->>ar: Returns an array of hashes, one for each row of the albums table
+    db_conn->>ar: Returns an array of dictionaries, one for each row of the albums table
     loop 
         ar->>ar: Loops through array and creates an Album object for every row
     end
@@ -125,7 +125,7 @@ Create a similar sequence diagram to the one above for the. Make sure your diagr
 
 You can create these diagrams in the diagramming tool of your choice but a nice one for creating sequence diagrams specifically is [diagram.codes](https://playground.diagram.codes/d/sequence).
 
-[After you're done, submit your recording and diagram here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=db_as02_v2).
+[After you're done, submit your recording and diagram here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as02_v2).
 
 
 [Next Challenge](04_designing_schema_one_table.md)
