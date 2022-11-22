@@ -53,7 +53,7 @@ You can see an example of the code for these in the project starter.
 
 ## Exercise
 
-Your assignment is to test-drive an `Album` class and an `AlbumRepository` class
+You have the code for handling the `Artist` data, now your assignment is to test-drive two new classes; an `Album` class and an `AlbumRepository` class
 with an `all` method.
 
 1. Work in the `music_library` project you created earlier.
