@@ -131,7 +131,7 @@ class StudentRepository():
 
 		# Gets a single record by its ID
 		# One argument: the id (number)
-	def find(id)
+	def find(id):
 		# Executes the SQL query:
 		# SELECT id, name, cohort_name FROM students WHERE id = $1;
 
@@ -152,9 +152,9 @@ class StudentRepository():
 
 ## 6. Write Test Examples
 
-Write Ruby code that defines the expected behaviour of the Repository class, following your design from the table written in step 5.
+Write Python code that defines the expected behaviour of the Repository class, following your design from the table written in step 5.
 
-These examples will later be encoded as RSpec tests.
+These examples will later be encoded as Pytest tests.
 
 ```python
 # EXAMPLES
