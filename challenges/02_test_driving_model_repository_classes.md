@@ -51,6 +51,19 @@ Here is an example for the `ArtistRepository` class described above.
 
 You can see an example of the code for these in the project starter.
 
+### Design Recipe
+
+Follow this [Design
+Recipe](../resources/repository_class_recipe_template.md) to design, test-drive and
+implement these two classes for a table. The outline is:
+  1. Design and create the table if needed.
+  2. Create test SQL seeds.
+  3. Define the Model and Repository class names.
+  4. Implement the Model class.
+  5. Design the Repository class interface.
+  6. Write test examples.
+  7. Test-driven and implement the Repository class behaviour.
+  
 ## Exercise
 
 You have the code for handling the `Artist` data, now your assignment is to test-drive two new classes; an `Album` class and an `AlbumRepository` class
