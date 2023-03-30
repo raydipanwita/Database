@@ -38,7 +38,8 @@ applications.
 PostgreSQL comes with a built-in REPL, `psql`, that we can use to directly
 type-in some SQL to interact with the database.
 
-Run the command `psql -h 127.0.0.1` to enter the REPL:
+Run the command `psql -h 127.0.0.1` to enter the REPL - if you see an error,
+look at the _Getting an error?_ section below:
 
 ```bash
 $ psql -h 127.0.0.1
@@ -53,7 +54,7 @@ leoht=#
 Here, we use `127.0.0.1`, since it's the local IP address of your own machine,
 on which PostgreSQL runs.*
 
-### If the above fails
+### Getting an error?
 
 If you get an error similar to `connection to server at "127.0.0.1", port 5432
 failed: FATAL: database "leoht" does not exist`  - you can use the `createdb`

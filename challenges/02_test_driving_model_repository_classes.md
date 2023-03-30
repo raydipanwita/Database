@@ -92,12 +92,13 @@ with an `all` method.
    [starter](https://github.com/makersacademy/databases-in-python-project-starter).
 2. Use the `book_store` SQL seed instead of the `music_library` seed. You can
    find this in the `seeds` directory in the starter.
-3. Start recording yourself.
-4. Test-drive a `Book` class that has attributes for each column in the `books`
+3. Follow the design recipe as usual, before starting to test-drive the classes.
+4. Start recording yourself.
+5. Test-drive a `Book` class that has attributes for each column in the `books`
    table.
-5. Test-drive a `BookRepository` class that has a method `all` that returns a
+6. Test-drive a `BookRepository` class that has a method `all` that returns a
    list of `Book` objects.
-6. Write a small program in `app.py` using the class `BookRepository` to print
+7. Write a small program in `app.py` using the class `BookRepository` to print
    out the list of books to the terminal.
 
 You should get an output that looks roughly like this:

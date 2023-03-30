@@ -91,13 +91,13 @@ sequenceDiagram
     app->>ar: Calls method `all` on AlbumRepository
     ar->>db_conn: Sends SQL query by calling method `execute` on DatabaseConnection
     db_conn->>db: Sends query to database via the open database connection
-    db->>db_conn: Returns an array of dictionaries, one for each row of the albums table
+    db->>db_conn: Returns a list of dictionaries, one for each row of the albums table
 
-    db_conn->>ar: Returns an array of dictionaries, one for each row of the albums table
+    db_conn->>ar: Returns a list of dictionaries, one for each row of the albums table
     loop 
-        ar->>ar: Loops through array and creates an Album object for every row
+        ar->>ar: Loops through list and creates an Album object for every row
     end
-    ar->>app: Returns array of Album objects
+    ar->>app: Returns list of Album objects
     app->>t: Prints list of albums to terminal
 ```
 
@@ -106,6 +106,39 @@ That's because it's not really an _actor_ in a program.
 It's just a container to hold the data for each album.
 </details>
 
+## Diagramming
+
+You can create these diagrams in the diagramming tool of your choice but a nice
+one for creating sequence diagrams specifically is
+[diagram.codes](https://playground.diagram.codes/d/sequence).
+
+After starting diagram.codes, you'll see an example in the left-hand panel which
+is what's used to automatically draw what's in the right-hand panel. You can
+make your own aliases, arrows between them, etc. by changing the content on the
+left.
+
+<details>
+  <summary>Want to see an example of diagram.codes syntax?</summary>
+
+  This code produces the first diagram on this page.
+
+  ```
+  alias T="Terminal"
+  alias P="Python program"
+  alias D="Postgres database"
+  
+  T->P: "Runs program"
+  P->D: "SQL query"
+  D->P: "Query result data"
+  P->T: "Prints results to the terminal"
+  ```
+</details>
+
+Some alternatives:
+
+* [Mermaid's Live Editor](https://mermaid.live/) which allows for drawing
+  sequences (check its Sample Diagrams section)
+* [Excalidraw](https://excalidraw.com) which allows for more freehand drawing
 
 ## Challenge
 
@@ -115,15 +148,17 @@ this?](https://github.com/makersacademy/golden-square/blob/main/pills/process_fe
 
 > **Note**: For this challenge, record yourself as you talk through your finished diagram (there is no need to record yourself as you create the diagram). As part of your submission, please upload an image file with your diagram as well as your recording.
 
-Create a similar sequence diagram to the one above for the. Make sure your diagram includes all of the [challenge you completed in the previous section](./02_test_driving_model_repository_classes.md#challenge). Make sure your diagram includes the following:
+Create a similar sequence diagram to the one above for the bookstore from the
+previous challenge. Make sure your diagram includes all of the [challenge you completed
+in the previous
+section](./02_test_driving_model_repository_classes.md#challenge). Make sure
+your diagram includes the following:
 
  * The terminal 
  * The main program (`app.py`)
  * The repository class
  * The database connection class
  * The database
-
-You can create these diagrams in the diagramming tool of your choice but a nice one for creating sequence diagrams specifically is [diagram.codes](https://playground.diagram.codes/d/sequence).
 
 [After you're done, submit your recording and diagram here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as02_v2).
 
