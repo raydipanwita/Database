@@ -6,7 +6,7 @@ _Copy this recipe template to design and create two related database tables from
 
 ```
 # EXAMPLE USER STORY:
-# (analyse only the relevant part - here the final line).
+# (analyse only the relevant part - here, the final line).
 
 As a music lover,
 So I can organise my records,
@@ -48,7 +48,7 @@ Put the different nouns in this table. Replace the example with your own nouns.
 
     Column names: `name`
 
-## 3. Decide the column types.
+## 3. Decide the column types
 
 [Here's a full documentation of PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html).
 
@@ -101,7 +101,7 @@ Replace the relevant bits in this example with your own:
 
 *If you can answer YES to the two questions, you'll probably have to implement a Many-to-Many relationship, which is more complex and needs a third table (called a join table).*
 
-## 4. Write the SQL.
+## 4. Write the SQL
 
 ```sql
 -- EXAMPLE
@@ -115,7 +115,7 @@ CREATE TABLE artists (
   name text,
 );
 
--- Then the table with the foreign key first.
+-- Then the table with the foreign key second.
 CREATE TABLE albums (
   id SERIAL PRIMARY KEY,
   title text,
@@ -129,7 +129,7 @@ CREATE TABLE albums (
 
 ```
 
-## 5. Create the tables.
+## 5. Create the tables
 
 ```bash
 psql -h 127.0.0.1 database_name < albums_table.sql

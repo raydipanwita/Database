@@ -22,7 +22,7 @@ create or modify data stored in the database.
 On a high-level, SQL allows to us to run **queries** on the database and ask
 things like:
   * Get all the records from a table.
-  * Get all the records from a table where some conditions are met (e.g where
+  * Get all the records from a table where some conditions are met (e.g. where
     the name is "John").
   * Create a new record.
   * Update or delete a record where some conditions are met.
@@ -100,9 +100,11 @@ with the following command:_
 createdb music_library
 ```
 
+_Here, we're using a PostgreSQL command which you'd pronounce "create db", where "db" is short for database._
+
 ## Importing the seed data
 
-You've created a database, but it is empty for now, without any table.
+You've created a database, but it is empty for now, without any table(s).
 
 In the following sections, you will work using seed data provided by us, with
 tables that have already been created. All the needed SQL is in the file
@@ -110,7 +112,21 @@ tables that have already been created. All the needed SQL is in the file
 this module's repository to get the file on your machine, or download it
 directly.
 
-You can have a look at this file if you'd like. It contains SQL queries to:
+<details>
+  <summary>What's a "seed"?</summary>
+
+  ---
+  **Seeds** are initial sets of data which can be used to populate a database
+  and its tables, so that things aren't empty.
+
+  Seeds are useful as they can give us some data we can begin working with,
+  including writing tests which use that data which we can later use in TDD.
+
+  ---
+</details>
+
+You can have a look at that `music_database.sql` file if you'd like. It contains
+SQL queries to:
   * create the tables (the *structure*)
   * insert some records in these tables (the *data* itself)
 

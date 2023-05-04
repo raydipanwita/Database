@@ -11,10 +11,10 @@ Learn to design and create a schema with two tables and a foreign key.
 ## Introduction
 
 You've learned how to design a schema with a single table. Often, we will need
-to store different kind of records in our programs — for example, _albums and
+to store different kinds of records in our programs — for example, _albums and
 artists_, for a music library, or _posts and comments_, for a blogging program.
 
-Relational databases allow us to store different kind of records and "link" them
+Relational databases allow us to store different kinds of records and "link" them
 together, with the use of foreign keys. In the music library database, albums
 are associated to their artist record using the `artist_id` foreign key.
 
@@ -26,7 +26,7 @@ from a plain English specification.
 In relational databases, there are different types of relationship possible
 between two tables. First, you'll learn about **one-to-many**, which is probably
 the most common type. One record in a table can be associated with many records
-in another table, hence the name.   
+in another table, hence the name.
 
 Some examples: a musical artist can have many different albums. A country can
 have many cities. A blog post can have many comments.
@@ -43,7 +43,7 @@ relationship between the tables `albums` and `artists`.
 Follow this [Design Recipe](../resources/two_table_design_recipe_template.md) to
 design the schema for two related tables. The outline is:
 
-1. List all the nouns
+1. List all the nouns.
 2. Decide whether a noun is a record (a table name) or a property of it (a
    column).
 3. Decide the column types.
@@ -91,8 +91,9 @@ So I can get to know all students
 I want to see a list of students' cohorts.
 ```
 
-1. Copy the Design Recipe template and use it to design the schema for the two
-   tables.
+1. Copy the [Two Tables Design
+   Recipe](../resources/two_table_design_recipe_template.md) and use it to
+   design the schema for the two tables.
 2. Create the tables by loading the SQL file in `psql`.
 
 [Example solution](https://www.youtube.com/watch?v=k078sL3HBfU&t=1364s)
@@ -117,8 +118,9 @@ You should create a new database `blog` for this challenge.
 
 Infer the table schema from these user stories.
 
-1. Copy the Design Recipe template and use it to design the schema for the
-   tables.
+1. Copy the [Two Tables Design
+   Recipe](../resources/two_table_design_recipe_template.md) and use it to
+   design the schema for the tables.
 2. Create the tables by loading the SQL file in `psql`.
 
 ```

@@ -17,7 +17,7 @@ Therefore, our program needs at least one class as part of its "core" layer.
 
 ## The Application class interface
 
-This class wraps the other layer — it acts as an entrypoint to our program
+This class wraps the other layer — it acts as an entrypoint to our program:
 
 ```python
 # file: app.py

@@ -6,7 +6,7 @@ _Copy this recipe template to design and create a database table from a specific
 
 ```
 # EXAMPLE USER STORY:
-# (analyse only the relevant part - here the final line).
+# (analyse only the relevant part - here, the final line).
 
 As a music lover,
 So I can organise my records,
@@ -14,7 +14,7 @@ I want to keep a list of albums' titles.
 
 As a music lover,
 So I can organise my records,
-I want to keep a list of albums' release year.
+I want to keep a list of albums' release years.
 ```
 
 ```
@@ -28,14 +28,14 @@ album, title, release year
 Put the different nouns in this table. Replace the example with your own nouns.
 
 | Record                | Properties          |
-| --------------------- | ------------------  |
-| album                 | title, release year
+| --------------------- | ------------------- |
+| album                 | title, release year |
 
-Name of the table (always plural): `albums` 
+Name of the table (always plural): `albums`
 
 Column names: `title`, `release_year`
 
-## 3. Decide the column types.
+## 3. Decide the column types
 
 [Here's a full documentation of PostgreSQL data types](https://www.postgresql.org/docs/current/datatype.html).
 
@@ -51,7 +51,7 @@ title: text
 release_year: int
 ```
 
-## 4. Write the SQL.
+## 4. Write the SQL
 
 ```sql
 -- EXAMPLE
@@ -66,7 +66,7 @@ CREATE TABLE albums (
 );
 ```
 
-## 5. Create the table.
+## 5. Create the table
 
 ```bash
 psql -h 127.0.0.1 database_name < albums_table.sql

@@ -148,7 +148,7 @@ this?](https://github.com/makersacademy/golden-square/blob/main/pills/process_fe
 
 > **Note**: For this challenge, record yourself as you talk through your finished diagram (there is no need to record yourself as you create the diagram). As part of your submission, please upload an image file with your diagram as well as your recording.
 
-Create a similar sequence diagram to the one above for the bookstore from the
+Create a similar sequence diagram to the one above for the book_store from the
 previous challenge. Make sure your diagram includes all of the [challenge you completed
 in the previous
 section](./02_test_driving_model_repository_classes.md#challenge). Make sure

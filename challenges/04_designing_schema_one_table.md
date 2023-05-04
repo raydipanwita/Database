@@ -80,7 +80,7 @@ I want to see a list of movies' genres.
 
 As a person who loves movies,
 So I can list all my favourite movies
-I want to see a list of movies' release year.
+I want to see a list of movies' release years.
 ```
 
 1. Copy the Design Recipe template and use it to design the schema for that

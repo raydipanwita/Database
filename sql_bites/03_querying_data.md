@@ -26,7 +26,7 @@ The columns of that result set will be the ones you asked for in the query, and 
 
 ## Selecting columns in the result set
 
-Here's a simple `SELECT` query that we can run on the music library database. It selects records from the table `albums`, keeping in the result set only values for the columns `id` and `title`. 
+Here's a simple `SELECT` query that we can run on the music_library database. It selects records from the table `albums`, keeping in the result set only values for the columns `id` and `title`. 
 
 ```sql
 SELECT id, title FROM albums;
@@ -48,7 +48,7 @@ Run this query and you should get the following **result set**. We didn't specif
   9 | Baltimore
 ```
 
-(You can use the up and down arrow keys to scroll this result set in your terminal, and use `q` to exit and go back to the REPL).
+(You can use the up and down arrow keys to scroll this result set in your terminal, and use `q` to exit and go back to the REPL.)
 
 ## Filtering
 

@@ -36,7 +36,7 @@ before starting the sequence below.
 
 ### Phase One: SQL Bites
 
-Go through these exercises and learn how to setup PostgreSQL and use SQL to read
+Go through these exercises and learn how to set up PostgreSQL and use SQL to read
 and manipulate data stored in an existing database.
 
 <!-- OMITTED -->
@@ -52,7 +52,7 @@ and manipulate data stored in an existing database.
 
 <!-- OMITTED -->
 
-Go through these exercises and learn how to setup and gradually build a program
+Go through these exercises and learn how to set up and gradually build a program
 which communicates with a database.
 
 Some of these challenges include [Process Feedback

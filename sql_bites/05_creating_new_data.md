@@ -10,10 +10,10 @@ Learn to write `INSERT` SQL queries to create new records.
 
 ## Introduction
 
-We use the `INSERT` query to create new records into a table. The general syntax is:
+We use the `INSERT` query to create new records in a table. The general syntax is:
 
 ```sql
-INSERT INTO [table name]
+INSERT INTO [table_name]
   ( [list of columns] )
   VALUES( [list of values] );
 ```

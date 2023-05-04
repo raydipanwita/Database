@@ -19,7 +19,7 @@ create table tags (
 );
 ```
 
-A single post can be associated with many different tags (e.g one post tagged
+A single post can be associated with many different tags (e.g. one post tagged
 with `coding`, `python`), but a single tag could also be associated with
 different posts (many posts could be tagged with `coding`).
 

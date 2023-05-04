@@ -81,14 +81,12 @@ Define the attributes of your Model class. You can usually map the table columns
 # (in lib/student.py)
 
 class Student:
-	def __init__(self):
-		self.id = 0
-		self.name = ""
-		self.cohort_name = ""
- 
+    def __init__(self):
+        self.id = 0
+        self.name = ""
+        self.cohort_name = ""
 
-
-  # Replace the attributes by your own columns.
+        # Replace the attributes by your own columns.
 
 
 # We can set the attributes to default empty values and set them later,
@@ -99,7 +97,7 @@ class Student:
 # >>> student.cohort_name = "September Devs"
 # >>> student.name
 # 'Will'
-# >>> student.cohort_name 
+# >>> student.cohort_name
 # 'September Devs'
 
 ```
@@ -121,32 +119,32 @@ Using comments, define the method signatures (arguments and return value) and wh
 
 class StudentRepository():
 
-	# Selecting all records
-	# No arguments
-	def all():
-		# Executes the SQL query:
-		# SELECT id, name, cohort_name FROM students;
+    # Selecting all records
+    # No arguments
+    def all():
+        # Executes the SQL query:
+        # SELECT id, name, cohort_name FROM students;
 
-		# Returns an array of Student objects.
+        # Returns an array of Student objects.
 
-		# Gets a single record by its ID
-		# One argument: the id (number)
-	def find(id):
-		# Executes the SQL query:
-		# SELECT id, name, cohort_name FROM students WHERE id = $1;
+        # Gets a single record by its ID
+        # One argument: the id (number)
+    def find(id):
+        # Executes the SQL query:
+        # SELECT id, name, cohort_name FROM students WHERE id = $1;
 
-		# Returns a single Student object.
+        # Returns a single Student object.
 
-		# Add more methods below for each operation you'd like to implement.
+        # Add more methods below for each operation you'd like to implement.
 
-	# def create(student)
-	# 
+    # def create(student)
+    # 
 
-	# def update(student)
-	# 
+    # def update(student)
+    # 
 
-	# def delete(student)
-	# 
+    # def delete(student)
+    # 
 
 ```
 

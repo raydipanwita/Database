@@ -53,21 +53,32 @@ You can see an example of the code for these in the project starter.
 
 ### Design Recipe
 
-Follow this [Design
+The code for `Artist` and `ArtistRepository` classes was created following this [Design
 Recipe](../resources/repository_class_recipe_template.md) to design, test-drive and
-implement these two classes for a table. The outline is:
+implement them for a table. The outline for the recipe is:
+
   1. Design and create the table if needed.
   2. Create test SQL seeds.
   3. Define the Model and Repository class names.
   4. Implement the Model class.
   5. Design the Repository class interface.
   6. Write test examples.
-  7. Test-driven and implement the Repository class behaviour.
-  
+  7. Test-drive and implement the Repository class behaviour.
+
+Take a moment to read through the Design Recipe and its steps, as well as the
+resulting example code in the project starter. Before moving on, check that
+you're able to answer these questions:
+
+* What data is in the seed file being used by the tests?
+* What are the class methods `__eq__` and `__repr__` used for?
+* What is `db_connection` and what two things is it being used for (in one of
+  the test files)?
+
 ## Exercise
 
-You have the code for handling the `Artist` data, now your assignment is to test-drive two new classes; an `Album` class and an `AlbumRepository` class
-with an `all` method.
+You have the code for handling the `Artist` data, now your assignment is to
+test-drive two new classes; an `Album` class and an `AlbumRepository` class
+with an `all` method, using the Design Recipe above.
 
 1. Work in the `music_library` project you created earlier.
 2. Test-drive an `Album` class that has attributes for each column in the

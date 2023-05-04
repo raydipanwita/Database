@@ -12,7 +12,7 @@ the database.
 ## Intro
 
 You previously learned how to test-drive a Repository class method to retrieve
-_all_ records from a table (we named this method `all`). 
+_all_ records from a table (we named this method `all`).
 
 In this section, you will learn how to test-drive a method `find` that returns
 _a single record using its id_. It will perform a filtered `SELECT` query to
@@ -74,7 +74,7 @@ Your assignment is to test-drive a recipe directory program. You should:
 3. Create a `seeds/recipes.sql` using `seeds/book_store.sql` as a template.
 4. Test-drive a `Recipe` class that has attributes for each column in your
    table.
-5. Test-drive a `RecipeRepository` class that has `all` and `find` methods
+5. Test-drive a `RecipeRepository` class that has `all` and `find` methods.
 6. Write a small program in `app.py` using the class `RecipeRepository` to print
    out the list of recipes to the terminal.
 

@@ -89,6 +89,9 @@ SELECT albums.id,
   7 | Folklore             |  3 | Taylor Swift
   8 | I Put a Spell on You |  4 | Nina Simone
   9 | Baltimore            |  4 | Nina Simone
+ 10 | Here Comes the Sun   |  4 | Nina Simone
+ 11 | Fodder on My Wings   |  4 | Nina Simone
+ 12 | Ring Ring            |  2 | ABBA
 ```
 
 Even though we prefixed the column names, we still end up with two columns `id`
@@ -118,11 +121,14 @@ SELECT albums.id,
   7 | Folklore             |         3 | Taylor Swift
   8 | I Put a Spell on You |         4 | Nina Simone
   9 | Baltimore            |         4 | Nina Simone
+ 10 | Here Comes the Sun   |         4 | Nina Simone
+ 11 | Fodder on My Wings   |         4 | Nina Simone
+ 12 | Ring Ring            |         2 | ABBA
 ```
 
 You'll note that we have duplicate values for the artist name (the last column
 of the result set). **This is expected**, as we have more than one album record
-for each artist. 
+for each artist.
 
 ## Other examples
 
@@ -164,14 +170,14 @@ SELECT albums.id AS album_id,
 
 ## Exercise One
 
-Use the database `music_library` for the following exercises. You can load it in
-with:
+Use the database `music_library` for the following exercises. You can load the
+seed file data in again with:
 
 ```shell
-# From the starter project directory
+# From the starter project directory, in your terminal
 ; dropdb music_library
 ; createdb music_library
-; psql music_library < seeds/music_library.sql
+; psql -h 127.0.0.1 music_library < seeds/music_library.sql
 ```
 
 Using `psql`, use a `JOIN` query to select the `id` and `title` of all the
@@ -205,7 +211,7 @@ You should get the following result set:
 
 ## Challenge
 
-Find the `id` and `title` of all albums from Nina Simone released after 1975.
+Find the `album_id` and `title` of all albums from Nina Simone released after 1975.
 
 You should get the following result set:
 

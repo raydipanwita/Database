@@ -53,8 +53,9 @@ So I can get to know all students
 I want to be able to assign many different tags to a student.
 ```
 
-1. Copy the Design Recipe template and use it to design the schema for the two
-   tables and their join table.
+1. Copy the [Many-to-Many Design
+   Recipe](../resources/two_tables_many_to_many_design_recipe_template.md) and
+   use it to design the schema for the two tables and their join table.
 2. Create the tables by loading the SQL file in `psql`.
 
 ## Challenge
@@ -79,8 +80,9 @@ So I can keep track of movies being shown,
 I want to be able to list which movies are being shown a specific cinema.
 ```
 
-1. Copy the Design Recipe template and use it to design the schema for the two
-   tables and their join table.
+1. Copy the [Many-to-Many Design
+   Recipe](../resources/two_tables_many_to_many_design_recipe_template.md) and
+   use it to design the schema for the two tables and their join table.
 2. Create the tables by loading the SQL file in `psql`.
 
 

@@ -82,7 +82,7 @@ class Artist():
         return f"Artist({self.id}, {self.name}, {self.genre})"
 ```
 
-Then we'll test-drive, encoding the expected behaviour as a test.
+Then we'll test-drive, defining the expected behaviour as a test.
 
 ```python
 # file: tests/test_artist_repository.py

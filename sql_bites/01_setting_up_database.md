@@ -1,6 +1,6 @@
 # Setting up PostgreSQL
 
-Learn to setup PostgreSQL.
+Learn to set up PostgreSQL.
 
 ## Introduction
 
@@ -16,7 +16,7 @@ PostgreSQL is free and open-source, and is also widely used in a lot of large-sc
 
 ## About relational databases
 
-A **database** is a collection of **tables**. Each table store a list of "things". For example, if our application is a blogging system, we could have a table 'posts' and a table 'comments'.
+A **database** is a collection of **tables**. Each table stores a list of "things". For example, if our application is a blogging system, we could have a table 'posts' and a table 'comments'.
 
 ```
 +----------------------------------------------------------+
@@ -48,7 +48,7 @@ Table: students
   4 | Ali          | April 2022
 ```
 
-*(By convention, table names and column names are **always lowercase**, using underscores to separate words). Table names are always plural*
+*(By convention, table names and column names are **always lowercase**, using underscores to separate words). Table names are always plural.*
 
 ## Setup
 
