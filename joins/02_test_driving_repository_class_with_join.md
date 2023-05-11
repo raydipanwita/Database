@@ -65,11 +65,11 @@ would be an empty array.
 # file: lib/artist.py
 
 class Artist():
-    def __init__(self, id, name, genre, albums = []):
+    def __init__(self, id, name, genre, albums = None):
         self.id = id
         self.name = name
         self.genre = genre
-        self.albums = albums
+        self.albums = albums or []
     
     def __eq__(self, other):
         return self.__dict__ == other.__dict__
