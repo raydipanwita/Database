@@ -56,10 +56,6 @@ artist = repository.find_with_albums(1)
 artist.id # The ID of the artist: 1
 
 artist.albums # This an array of Album objects
-
-# We'll get the id of the last in the list
-last_album = artist.albums.last
-last_album.id # The ID of the last album in the list: 12
 ```
 
 We'll need to add the attribute `albums` to the `Artist` class. By default, this
