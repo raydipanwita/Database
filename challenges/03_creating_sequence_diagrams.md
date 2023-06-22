@@ -160,7 +160,7 @@ your diagram includes the following:
  * The database connection class
  * The database
 
-[After you're done, submit your recording and diagram here](https://airtable.com/shrNFgNkPWr3d63Db?prefill_Item=dbpy_as02_v2).
+[After you're done, submit your recording and diagram here](https://airtable.com/shrCmIfdnKF04DGyQ?prefill_Item=dbpy_as02_v2).
 
 
 [Next Challenge](04_designing_schema_one_table.md)

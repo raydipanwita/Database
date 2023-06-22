@@ -112,7 +112,7 @@ Replace the relevant bits in this example with your own:
 -- Create the table without the foreign key first.
 CREATE TABLE artists (
   id SERIAL PRIMARY KEY,
-  name text
+  name text,
 );
 
 -- Then the table with the foreign key second.
@@ -134,7 +134,6 @@ CREATE TABLE albums (
 ```bash
 psql -h 127.0.0.1 database_name < albums_table.sql
 ```
-
 
 <!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
