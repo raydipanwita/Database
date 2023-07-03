@@ -87,10 +87,10 @@ Afterwards, either start a new terminal session or just run `zsh`.
 # Run this after the installation
 # to start the postgresql software
 # in the background.
-$ brew services start postgresql
+$ brew services start postgresql@15
 
 # You should get the following output:
-==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
+==> Successfully started `postgresql@15` (label: homebrew.mxcl.postgresql@15)
 ```
 
 If you have a different system, [follow the relevant instructions](https://www.postgresql.org/download/), and if you're not sure, ask your coach. If you have any trouble with the installation process, it's probably better to ask your coach for help, rather than spending too much time figuring it out.

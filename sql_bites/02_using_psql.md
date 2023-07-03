@@ -44,7 +44,7 @@ look at the _Getting an error?_ section below:
 ```bash
 $ psql -h 127.0.0.1
 
-psql (14.2)
+psql (15.2)
 Type "help" for help.
 
 leoht=# 
@@ -75,7 +75,7 @@ the `CREATE DATABASE` SQL query.
 ```bash
 $ psql -h 127.0.0.1
 
-psql (14.2)
+psql (15.2)
 Type "help" for help.
 ```
 
