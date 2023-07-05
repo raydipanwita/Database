@@ -128,7 +128,7 @@ You should get an output that looks roughly like this:
 ```
 
 [After you're done, submit your recording
-here](https://airtable.com/shrCmIfdnKF04DGyQ?prefill_Item=dbpy_as01).
+here](https://airtable.com/shrvo9ePjlwnaiLv5?prefill_Item=dbpy_as01).
 
 
 [Next Challenge](03_creating_sequence_diagrams.md)

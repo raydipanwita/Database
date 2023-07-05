@@ -77,7 +77,7 @@ Your assignment is to:
 Use your `music_library` project from the previous section.
 
 [After you're done, submit your recording
-here](https://airtable.com/shrCmIfdnKF04DGyQ?prefill_Item=dbpy_as03).
+here](https://airtable.com/shrvo9ePjlwnaiLv5?prefill_Item=dbpy_as03).
 
 
 [Next Challenge](08_wrapping_in_application_class.md)
