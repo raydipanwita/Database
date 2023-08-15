@@ -98,7 +98,7 @@ Join table name: posts_tags
 Columns: post_id, tag_id
 ```
 
-## 4. Write the SQL.
+## 6. Write the SQL.
 
 ```sql
 -- EXAMPLE
@@ -130,7 +130,7 @@ CREATE TABLE posts_tags (
 
 ```
 
-## 5. Create the tables.
+## 7. Create the tables.
 
 ```bash
 psql -h 127.0.0.1 database_name < posts_tags.sql

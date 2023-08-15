@@ -108,7 +108,7 @@ You've created a database, but it is empty for now, without any table(s).
 
 In the following sections, you will work using seed data provided by us, with
 tables that have already been created. All the needed SQL is in the file
-[`music_database.sql`](resources/music_library.sql). You can clone
+[`music_library.sql`](resources/music_library.sql). You can clone
 this module's repository to get the file on your machine, or download it
 directly.
 
@@ -125,7 +125,7 @@ directly.
   ---
 </details>
 
-You can have a look at that `music_database.sql` file if you'd like. It contains
+You can have a look at that `music_library.sql` file if you'd like. It contains
 SQL queries to:
   * create the tables (the *structure*)
   * insert some records in these tables (the *data* itself)
@@ -137,7 +137,7 @@ $ psql -h 127.0.0.1 {database_name} < {file_containing_sql}
 
 ## Exercise
 
-Use the command described above to load the file `music_database.sql` on the
+Use the command described above to load the file `music_library.sql` on the
 database `music_library`.
 
 You should get the following output:
@@ -159,7 +159,7 @@ INSERT 0 4
   <summary>Reveal the command to run</summary>
 
   ```bash
-  $ psql -h 127.0.0.1 music_library < music_database.sql
+  $ psql -h 127.0.0.1 music_library < music_library.sql
   ```
 </details>
 

@@ -101,7 +101,7 @@ Replace the relevant bits in this example with your own:
 
 *If you can answer YES to the two questions, you'll probably have to implement a Many-to-Many relationship, which is more complex and needs a third table (called a join table).*
 
-## 4. Write the SQL
+## 5. Write the SQL
 
 ```sql
 -- EXAMPLE
@@ -129,7 +129,7 @@ CREATE TABLE albums (
 
 ```
 
-## 5. Create the tables
+## 6. Create the tables
 
 ```bash
 psql -h 127.0.0.1 database_name < albums_table.sql

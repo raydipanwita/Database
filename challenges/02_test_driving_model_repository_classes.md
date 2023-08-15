@@ -96,17 +96,21 @@ This is a process feedback challenge. That means you should record yourself
 doing it and submit that recording to your coach for feedback. [How do I do
 this?](https://github.com/makersacademy/golden-square/blob/main/pills/process_feedback_challenges.md)
 
-Your assignment is to test-drive a `Book` class and a `BookRepository` class
-with an `all` method.
+Your assignment is to use the design recipe above to design, then test-drive a
+`Book` class and a `BookRepository` class with an `all` method.
+
+> __Note__
+> Follow the steps below, those in the starter project and design recipe
+> carefully!
 
 1. Set up a new project called `book_store` from the
    [starter](https://github.com/makersacademy/databases-in-python-project-starter).
 2. Use the `book_store` SQL seed instead of the `music_library` seed. You can
    find this in the `seeds` directory in the starter.
 3. Follow the design recipe as usual, before starting to test-drive the classes.
-4. Start recording yourself.
+4. Once you've done the design recipe, start recording yourself.
 5. Test-drive a `Book` class that has attributes for each column in the `books`
-   table.
+   table, using the example(s) from your design.
 6. Test-drive a `BookRepository` class that has a method `all` that returns a
    list of `Book` objects.
 7. Write a small program in `app.py` using the class `BookRepository` to print
