@@ -11,7 +11,7 @@ usually contains all the program logic.
 On the diagram below, you can see this split — the part on the right is the database layer
 containing the Model and Repository classes learned in this module.
 
-![Program layers](./resources/program-layers.png)
+![Program layers split by logic on the left (validators etc) and database classes on the right](./resources/program-layers.png)
 
 Therefore, our program needs at least one class as part of its "core" layer.
 

@@ -65,7 +65,7 @@ it's easier to communicate and visualise the database schema. Here's an example
 of the schema created in the video demonstration, using
 [Excalidraw](https://excalidraw.com/).
 
-![The concerts and venues table schema](./resources/db-schema-diagram.png)
+![The concerts and venues table schema with an arrow from concerts to venues and column names for each table](./resources/db-schema-diagram.png)
 
 ## Exercise
 
