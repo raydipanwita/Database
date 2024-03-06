@@ -31,6 +31,7 @@ INSERT INTO artists (name, genre) VALUES ('ABBA', 'Pop');
 INSERT INTO artists (name, genre) VALUES ('Taylor Swift', 'Pop');
 INSERT INTO artists (name, genre) VALUES ('Nina Simone', 'Jazz');
 
+
 INSERT INTO albums (title, release_year, artist_id) VALUES ('Doolittle', 1989, 1);
 INSERT INTO albums (title, release_year, artist_id) VALUES ('Surfer Rosa', 1988, 1);
 INSERT INTO albums (title, release_year, artist_id) VALUES ('Waterloo', 1974, 2);
